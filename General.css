@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+ 
+}
+li {
+    margin-bottom: 10px; 
+  }
+  h1{
+    font-family:  Titillium Web;
+  }
+  h2{
+    font-family:  Titillium Web;
+    font-weight: 600;
+  }
+  ul,li{
+    font-family:  Titillium Web;
+    font-weight: 400;
+  }

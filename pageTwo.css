@@ -1,0 +1,61 @@
+.img-container{
+width: 1142px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 10px;
+column-gap: 13px;
+row-gap: 168px;
+margin: 52px;
+font-weight: 700;
+}
+
+.card-size{
+      height: 418px;
+      width: 366px;
+      
+}
+.card-img{
+    width: 100%;
+    height:100%;
+}
+
+.text-2{
+   font-size: 36px;
+   margin: 0;
+    
+}
+.text-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    width: 1142px;
+    column-gap: 19px;
+    margin: 49.5px;
+    margin-top: -51.5px;
+   
+    
+}
+
+.time{
+padding-top: 20px;
+
+}
+p{
+    font-size: 18px;
+    line-height: 2;
+    font-family:  Titillium Web;
+    font-weight: 600;
+}
+.card-size h3{
+    font-family:  Titillium Web ;
+    font-weight: 600;
+}
+.text-container h1:hover{
+color: rgb(255, 102, 0);
+
+
+}
+.text-container h1{
+    cursor: pointer;
+    transition: .15s;
+    }

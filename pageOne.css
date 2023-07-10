@@ -1,0 +1,68 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .text-1 {
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(190, 21, 21, 0);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family:  Titillium Web;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .img-cont{
+    width: 100%;
+  }
+  .image-container .text-2{
+    display: flex;
+    color: white;
+    font-family: Titillium Web;
+    font-weight: 700;
+    font-size: 85px;
+    flex: 1;
+    position: absolute;
+    top: 40.5%;
+    left: 20%;
+    
+  }
+  .hamburger-image{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 110px;
+    left: 65px;
+  }
+.fa-location-dot{
+    position: absolute;
+    font-size: 35px;
+    top: 50px;
+    right: 363px;
+    
+  }
+  .fa-globe
+  {
+    position: absolute;
+    font-size: 35px;
+    top: 50px;
+    right: 297px;
+  }
+  .logo-podium{
+    
+    height: 178px;
+    width: 196px;
+    position: absolute;
+    top: 0;
+    right: 49px;
+}
+.logo-podium,.fa-globe,.fa-location-dot,.hamburger-image{
+  cursor: pointer;
+  
+}
+
+
